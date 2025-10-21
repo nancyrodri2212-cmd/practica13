@@ -1,0 +1,103 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fondo suave y tipografía */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fef6fb; /* rosita pastel */
+  color: #444;
+  padding: 20px;
+}
+
+/* Encabezado */
+h1 {
+  text-align: center;
+  color: #a875d9; /* moradito pastel */
+  margin-bottom: 20px;
+}
+
+/* Contenedor principal */
+.container {
+  background-color: #ffffff;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(174, 174, 174, 0.2);
+  border: 2px solid #e8e0f3;
+}
+
+/* Párrafos */
+p {
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+/* Botones lindos */
+button {
+  background-color: #b2f0e3; /* turquesa pastel */
+  color: #333;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #a2e1d5; /* un poquito más oscuro */
+}
+
+/* Enlaces */
+a {
+  color: #84b6f4; /* azulito pastel */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #6da8f0;
+  text-decoration: underline;
+}
+
+/* Imágenes */
+img {
+  max-width: 100%;
+  border-radius: 100ppx;
+  margin: 100px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 14px;
+  color: #777;
+  background-color: #f8f1ff; /* lila pastel */
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* Detalles cute */
+.card {
+  background-color: #fefefe;
+  border: 2px solid #f3eaff;
+  border-radius: 12px;
+  padding: 15px;
+  margin: 10px 0;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.card:hover {
+  background-color: #fff9ff;
+  transform: scale(1.02);
+  transition: 0.3s;
+}
